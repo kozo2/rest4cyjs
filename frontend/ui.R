@@ -5,6 +5,10 @@ shinyUI(fluidPage(
     tags$link(rel = "shortcut icon", href = "favicon.ico"),
     tags$title("rest4cyjs")
   ),
-  div(class = "logo-field"),
-  div(cyjShinyOutput("cyjShiny"))
+  div(
+    class = "my-container",
+    h1("rest4cyjs", class = "title"),
+    div(class = "logo-field"),
+    div(cyjShinyOutput("cyjShiny"))
+  )
 ))
