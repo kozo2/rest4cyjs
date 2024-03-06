@@ -4,10 +4,10 @@
 
 <div align="center">
     <a href="https://github.com/kozo2/rest4cyjs" alt="Contributors" style="text-decoration: none;">
-        <img src="https://img.shields.io/github/contributors/kozo2/rest4cyjs" style="text-ecoretion: none;"/>
+        <img src="https://img.shields.io/github/contributors/kozo2/rest4cyjs"/>
     </a>
     <a href="https://github.com/kozo2/rest4cyjs" alt="Version" style="text-decoration: none;">
-        <img src="https://badgen.net/static/version/0.0.1/green" />
+        <img src="https://badgen.net/static/version/0.0.1/green"/>
     </a>
     <a href="https://github.com/kozo2/rest4cyjs" alt="forks" style="text-decoration: none;">
         <img src="https://img.shields.io/github/forks/kozo2/rest4cyjs"/>
