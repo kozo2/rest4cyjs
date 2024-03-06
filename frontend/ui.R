@@ -6,5 +6,5 @@ shinyUI(fluidPage(
     tags$title("rest4cyjs")
   ),
   div(class = "logo-field"),
-  div(cyjShinyOutput('cyjShiny'))
+  div(cyjShinyOutput("cyjShiny"))
 ))
