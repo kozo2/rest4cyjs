@@ -35,10 +35,3 @@ function() {
   svg_file_path <- "./assets/test.png"
   readBin(svg_file_path, "raw", file.info(svg_file_path)$size)
 }
-
-#* Example of customizing graphical output
-#* @serializer png list(width = 400, height = 500)
-#* @get /
-function(){
-  plot(1:10)
-}
