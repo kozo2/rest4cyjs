@@ -1,0 +1,19 @@
+[
+    {
+        "selector": "node",
+        "css": {
+            "border-width": "1px",
+            "content": "data(id)",
+            "background-color": "data(color)",
+            "background-image": "https://live.staticflickr.com/1261/1413379559_412a540d29_b.jpg",
+            "background-fit": "cover cover"
+        }
+    },
+    {
+        "selector": "edge",
+        "css": {
+            "line-color": "gray",
+            "label": "data(label)"
+        }
+    }
+]
