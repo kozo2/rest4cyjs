@@ -3,18 +3,18 @@
 ![The Well App](rest4cyjs.png)
 
 <div align="center">
-    <a href="https://github.com/kozo2/rest4cyjs" alt="Contributors" style="text-decoration: none;">
+    <p>
         <img src="https://img.shields.io/github/contributors/kozo2/rest4cyjs"/>
-    </a>
-    <a href="https://github.com/kozo2/rest4cyjs" alt="Version" style="text-decoration: none;">
+    </p>
+    <p>
         <img src="https://badgen.net/static/version/0.0.1/green"/>
-    </a>
-    <a href="https://github.com/kozo2/rest4cyjs" alt="forks" style="text-decoration: none;">
+    </p>
+    <p>
         <img src="https://img.shields.io/github/forks/kozo2/rest4cyjs"/>
-    </a>
-    <a href="https://github.com/kozo2/rest4cyjs" alt="forks" style="text-decoration: none;">
+    </p>
+    <p>
         <img src="https://img.shields.io/github/stars/kozo2/rest4cyjs" />
-    </a>
+    </p>
 </div>
 
 ## frontend
