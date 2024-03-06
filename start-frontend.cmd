@@ -1,3 +1,3 @@
 @echo off
 
-Rscript ./front/config.R
+Rscript ./frontend/config.R
