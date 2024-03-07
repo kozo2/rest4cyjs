@@ -12,16 +12,23 @@ library(plumber)
 
 
 #* @filter cors
-cors <- function(res) {
+cors <- function(req, res) {
   res$setHeader("Access-Control-Allow-Origin", "*")
-  res$setHeader("Access-Control-Allow-Method", "GET")
-  res$setHeader("Access-Control-Allow-Headers", "*")
-  plumber::forward()
+  if (req$REQUEST_METHOD == "OPTIONS") {
+    res$setHeader("Access-Control-Allow-Methods", "GET")
+    res$setHeader(
+      "Access-Control-Allow-Headers",
+      req$HTTP_ACCESS_CONTROL_REQUEST_HEADERS
+    )
+    res$status <- 200
+    return(list())
+  } else {
+    plumber::forward()
+  }
 }
 
 
 #* 画像を返すエンドポイント
-#* @preempt cors
 #* @serializer contentType list(type="image/png")
 #* @get /test
 function() {

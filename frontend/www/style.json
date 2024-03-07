@@ -5,7 +5,7 @@
             "border-width": "1px",
             "content": "data(id)",
             "background-color": "data(color)",
-            "background-image": "https://live.staticflickr.com/1261/1413379559_412a540d29_b.jpg",
+            "background-image": "http://127.0.0.1:8000/test",
             "background-fit": "cover cover"
         }
     },
